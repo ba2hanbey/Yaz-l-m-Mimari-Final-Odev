@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MyApp.Api.Middleware;
+using MyApp.Application.DTOs;
 using MyApp.Application.Common;
 using MyApp.Application.Services;
 using MyApp.Infrastructure.Persistence;
@@ -67,4 +68,4 @@ users.MapDelete("/{id:int}", async (int id, IUserService service) =>
 app.Run();
 
 
-using MyApp.Application.DTOs;
+

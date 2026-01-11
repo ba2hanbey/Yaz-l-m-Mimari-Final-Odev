@@ -1,0 +1,18 @@
+# Build çıktıları
+bin/
+obj/
+
+# NuGet
+.nuget/
+**/packages/
+*.nupkg
+
+# SQLite DB
+*.db
+
+# IDE klasörleri
+.vs/
+.vscode/
+
+# OS
+Thumbs.db
